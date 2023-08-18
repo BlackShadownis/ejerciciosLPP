@@ -1,0 +1,30 @@
+arreglo [50] de real Valor_Nota
+entero notas_Recolectadas
+entero i
+real promedio_Notas
+real suma_Total
+
+
+inicio
+
+escriba "escriba las notas recolectadas: "
+lea notas_Recolectadas
+
+llamar nueva_linea
+
+Para i <- 1 Hasta notas_Recolectadas  Haga
+escriba "cuanto es el valor de la nota numero ", i, ":"
+lea valor_Nota[i]
+
+suma_Total <- suma_Total + valor_Nota[i]
+Fin Para
+
+promedio_Notas <- suma_Total /  notas_Recolectadas
+
+llamar nueva_linea
+
+escriba "el promedio de la tercera nota es de: ", promedio_Notas
+llamar nueva_linea
+escriba "el porcentaje del valor de la ercera nota es de: ", promedio_Notas * 0.20
+
+fin

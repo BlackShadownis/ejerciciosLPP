@@ -1,0 +1,12 @@
+cadena [25] nombre
+
+
+inicio
+
+escriba "ingrese su nombre: "
+lea nombre
+llamar nueva_linea
+
+escriba "hola " + nombre
+
+fin

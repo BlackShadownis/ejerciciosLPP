@@ -1,0 +1,12 @@
+entero contador
+
+inicio
+
+contador <- 0
+Mientras contador < 100 Haga
+contador <- contador + 1
+llamar nueva_linea
+escriba contador
+Fin Mientras
+
+fin

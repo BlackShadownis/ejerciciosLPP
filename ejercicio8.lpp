@@ -1,0 +1,59 @@
+real temperatura
+cadena [25] tptemp
+real celcius
+real fahrenheit
+real kelvin
+
+inicio
+
+escriba "el valor de la temperatura: "
+lea temperatura
+escriba "escriba la unidad de la tempuratura: "
+lea tptemp 
+
+llamar nueva_linea
+
+// celcius
+
+si tptemp = "celcius" entonces
+celcius <- temperatura
+escriba "el valor de la temperatura en celcius es: ", celcius
+llamar nueva_linea
+fahrenheit <- (temperatura * 1.8) + 32 
+escriba "el valor de la temperatura en fahrenheit es: ", fahrenheit
+llamar nueva_linea
+kelvin <- temperatura + 273.15
+escriba "el valor de la temperatura en kelvin es: ", kelvin
+
+fin si
+
+// fahrenheit
+
+si tptemp = "fahrenheit" entonces
+fahrenheit <- temperatura
+escriba "el valor de la temperatura en fahrenheit es: ", fahrenheit
+celcius <- (temperatura -32 ) * 0.555
+llamar nueva_linea
+escriba "el valor de la temperatura en celcius es: ", celcius
+llamar nueva_linea
+kelvin <- (temperatura - 32) * 0.555 +  273.15
+escriba "el valor de la temperatura en kelvin es: ", kelvin
+
+fin si
+
+// kelvin
+
+si tptemp = "kelvin" entonces
+kelvin <- temperatura
+escriba "el valor de la temperatura en kelvin es: ", kelvin
+llamar nueva_linea
+celcius <- (temperatura - 273.15)
+escriba "el valor de la temperatura en celcius es: ", celcius
+llamar nueva_linea
+fahrenheit <- (temperatura - 273.15 ) * 1.8 + 32
+escriba "el valor de la temperatura en kelvin es: ", fahrenheit
+
+fin si
+
+
+fin

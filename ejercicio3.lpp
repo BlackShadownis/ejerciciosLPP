@@ -1,0 +1,17 @@
+real num1
+real num2
+real resultado
+
+inicio
+
+escriba "ingresa el primer numero: "
+lea num1
+llamar nueva_linea
+escriba "ingresa el segundo numero: "
+lea num2
+
+llamar nueva_linea
+resultado <- num1 + num2
+escriba "este es el resultado de la suma: ", resultado
+
+fin

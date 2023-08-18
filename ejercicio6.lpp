@@ -1,0 +1,17 @@
+entero n
+entero contador
+
+inicio
+
+contador <- 0
+
+escriba "hasta que numero quiere contar: "
+lea n
+
+Mientras contador < n Haga
+contador <- contador + 1
+llamar nueva_linea
+escriba contador
+Fin Mientras
+
+fin

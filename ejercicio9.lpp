@@ -1,0 +1,22 @@
+real previo1
+real previo2
+real tercera_Nota
+real examen
+real valor_Asignatura
+
+inicio
+
+escriba "escriba el valor de previo1: "
+lea previo1
+escriba "escriba el valor de previo2: "
+lea previo2
+escriba "escriba el valor de terceranota:  "
+lea tercera_Nota
+escriba "escriba el valor de examen final :  "
+lea examen
+
+valor_Asignatura <- ((previo1 * 0.25) + (previo2 * 0.25) + (tercera_Nota * 0.20) + (examen * 0.30)) 
+
+escriba "la nota final de la asignatura es de:  ", valor_Asignatura
+
+fin
